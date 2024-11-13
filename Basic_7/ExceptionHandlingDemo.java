@@ -2,7 +2,7 @@ package Basic_7;
 
 import java.io.*;
 
-public class ExceptionHandling {
+public class ExceptionHandlingDemo {
 
     public static void main(String[] args) {
         
