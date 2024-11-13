@@ -1,0 +1,28 @@
+Throwable
+   ├── Error
+   │     ├── OutOfMemoryError                (Occurs when the JVM cannot allocate enough memory)
+   │     ├── StackOverflowError              (Occurs when the stack overflows due to deep recursion)
+   │     ├── NoClassDefFoundError            (Occurs when the JVM cannot find a class definition)
+   │     ├── VirtualMachineError             (Internal JVM errors, usually fatal)
+   │     └── LinkageError                    (Occurs when a class file has inconsistent data)
+   └── Exception
+         ├── Checked Exceptions
+         │     ├── IOException               (Occurs when an I/O operation fails, e.g., file not found)
+         │     ├── SQLException              (Occurs when interacting with a database)
+         │     ├── ClassNotFoundException    (Occurs when a class is referenced but not found)
+         │     ├── FileNotFoundException     (Occurs when trying to access a non-existing file)
+         │     ├── InterruptedException      (Occurs when a thread is interrupted during execution)
+         │     ├── MalformedURLException     (Occurs when a URL is malformed)
+         │     └── ParseException            (Occurs during parsing issues, such as invalid data format)
+         │
+         └── Unchecked Exceptions (RuntimeException)
+               ├── ArithmeticException              (Occurs when an invalid arithmetic operation happens, e.g., division by zero)
+               ├── NullPointerException             (Occurs when a null reference is accessed)
+               ├── ArrayIndexOutOfBoundsException   (Occurs when accessing an invalid index of an array)
+               ├── ClassCastException               (Occurs when trying to cast an object to an incompatible type)
+               ├── IllegalArgumentException         (Occurs when an illegal argument is passed to a method)
+               ├── NumberFormatException            (Occurs when converting a string to a number but the format is incorrect)
+               ├── IllegalStateException            (Occurs when a method is called at an illegal time in the object's state)
+               ├── IndexOutOfBoundsException        (Occurs when trying to access an index that is out of range)
+               ├── UnsupportedOperationException    (Occurs when an unsupported operation is attempted)
+               └── ConcurrentModificationException  (Occurs when a collection is modified while iterating over it)
